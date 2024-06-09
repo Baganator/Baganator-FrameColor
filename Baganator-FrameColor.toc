@@ -1,0 +1,7 @@
+## Interface: 11502, 40400, 100207, 110000
+## Title: Baganator (FrameColor Skin)
+## Version: @project-version@
+## Author: plusmouse
+## RequiredDeps: Baganator, FrameColor
+
+Main.lua
