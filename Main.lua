@@ -87,7 +87,7 @@ function module:OnEnable()
     desaturation = 1,
   }
   self:Recolor()
-  Baganator.Config.Set(Baganator.Config.Options.VIEW_ALPHA, self.colors.bg.a)
+  Baganator.Config.Set(Baganator.Config.Options.VIEW_ALPHA, self.colors.bg.a or 1)
 end
 
 function module:OnDisable()
@@ -99,7 +99,7 @@ function module:OnDisable()
     desaturation = 0,
   }
   self:Recolor()
-  Baganator.Config.Set(Baganator.Config.Options.VIEW_ALPHA, self.colors.bg.a)
+  Baganator.Config.Set(Baganator.Config.Options.VIEW_ALPHA, self.colors.bg.a or 1)
 end
 
 function module:Recolor(colors)
